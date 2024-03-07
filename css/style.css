@@ -742,12 +742,153 @@ footer  .wrapper .bottom .fsign h4 {
     #top .wrapper .spotlight .middle .option .windows {
         margin-right: 0;
     }
+    
+    #top .wrapper .spotlight .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    }
+    #top .wrapper .spotlight .middle .description {
+        margin-left: 0;
+    }
+    #top .wrapper .spotlight {
+        padding-bottom: 350px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    #top .wrapper .spotlight .middle .option {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #top .wrapper .spotlight .middle .option .windows {
+        margin-bottom: 30px;
+    }
+    #top .right {
+        width: 550px;
+        right: 30%;
+    }
+    #top .wrapper .spotlight {
+        padding-bottom: 270px;
+    }
 }
 @media all and (max-width: 768px){
+    #top .wrapper .spotlight {
+        padding-bottom: 250px;
+    }
+    #top .right {
+        width: 530px;
+        right: 20%;
+    }
+    #testimonial2 .wrapper .content .right {
+        width: 580px;
+    }
+    footer .wrapper .top {
+        flex-direction: column;
+    }
+    footer .wrapper .top .left {
+        padding-left: 20px;
+    }
+    footer .wrapper .top .right {
+        width: 80%;
+    }
 }
 @media all and (max-width: 640px){
+    #testimonial2 .wrapper .content .right {
+        width: 390px;
+    }
+    #top .wrapper .spotlight .middle .title {
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    #top .wrapper .spotlight {
+        padding-bottom: 220px;
+    }
+    #top .right {
+        width: 450px;
+        right: 0%;
+    }
+    #testimonial1 .wrapper .rightbox h2 {
+        font-size: 20px;
+    }
+    #testimonial1 .wrapper .rightbox p {
+        font-family: roboto-light;
+        font-size: 16px;
+    }
+    
+    #testimonial2 .wrapper .content .leftbox h2 {
+        font-size: 20px;
+    }
+    #testimonial2 .wrapper .content .leftbox p {
+        font-family: roboto-light;
+        font-size: 16px;
+    }
+    #testimonial3 .wrapper .rightbox h2 {
+        font-size: 20px;
+    }
+    #testimonial3 .wrapper .rightbox p {
+        font-family: roboto-light;
+        font-size: 16px;
+    }
+    footer .wrapper .top .right {
+        width: 100%;
+    }
+    footer .wrapper .top .left {
+        width: 60%;
+    }
 }
 @media all and (max-width: 480px){
+    #testimonial2 .wrapper .content .right {
+        width: 297px;
+    }
+    #top .wrapper .spotlight .middle .title {
+        font-size: 28px;
+    }
+    #top .wrapper .spotlight .middle .description {
+        font-size: 16px;
+        width: 100%;
+    }
+    #top .wrapper .spotlight .middle .option .windows {
+        padding: 20px 30px;
+    }
+    #top .wrapper .spotlight .middle .option .windows .download {
+        font-size: 14px;
+    }
+    #top .wrapper .spotlight .middle .option .OD-button {
+        padding: 20px 30px;
+    }
+    #top .wrapper .spotlight .middle .option .OD-button h4 {
+        font-size: 14px;
+    }
+    #top .wrapper .spotlight {
+        padding-bottom: 270px;
+    }
+    footer .wrapper .top .right {
+        padding: 60px 20px;
+    }
+    footer .wrapper .top .right .product {
+        width: 55%;
+    }
+    footer .wrapper .top .company {
+        width: 35%;
+        margin-right: 0;
+    }
+    footer .wrapper .top .resource {
+        margin-right: 0;
+        width: 60%;
+    }
+    footer .wrapper .top .policies {
+        width: 35%;
+    }
+    footer .wrapper hr {
+        margin-top: 0px;
+    }
 }
 @media all and (max-width: 360px){
+    #testimonial2 .wrapper .content .right {
+        width: 230px;
+    }
 }
