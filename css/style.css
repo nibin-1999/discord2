@@ -298,7 +298,9 @@ br.clear {
 
 
 
-        /* Testimonial1 Styles */
+       /* Testimonial1 Styles */
+
+
 
 
 #testimonial1 {
@@ -320,21 +322,26 @@ br.clear {
     width: 100%;
 }
 #testimonial1 .wrapper .rightbox {
-    width: 34%;
+    width: 35%;
 }
 #testimonial1 .wrapper .rightbox h2 {
     font-size: 38px;
     font-family: roboto-bold;
     font-weight: 800;
     margin-bottom: 25px;
+    width: 80%;
 }
 #testimonial1 .wrapper .rightbox p {
-    font-size: 16px;
+    font-size: 23px;
+    font-family: roboto-regular;
     font-weight: 500;
 }
 
 
+
     /* Testimonial2 Styles */
+
+
 
 #testimonial2 {
     height: 100%;
@@ -349,16 +356,21 @@ br.clear {
     padding: 130px 23px;
 }
 #testimonial2 .wrapper .content .leftbox {
-    width: 27%;
+    width: 35%;
 }
 #testimonial2 .wrapper .content .leftbox h2 {
     font-size: 38px;
+    font-family: roboto-bold;
     font-weight: 800;
     margin-bottom: 25px;
+    width: 80%;
 }
+
 #testimonial2 .wrapper .content .leftbox p {
-    font-size: 16px;
+    font-size: 23px;
+    font-family: roboto-regular;
     font-weight: 500;
+    width: 100%;
 }
 
 #testimonial2 .wrapper .content .right {
@@ -391,15 +403,18 @@ br.clear {
     width: 100%;
 }
 #testimonial3 .wrapper .rightbox {
-    width: 35%;
+    width: 40%;
 }
 #testimonial3 .wrapper .rightbox h2 {
     font-size: 38px;
+    font-family: roboto-bold;
     font-weight: 800;
     margin-bottom: 25px;
+    width: 70%;
 }
 #testimonial3 .wrapper .rightbox p {
-    font-size: 16px;
+    font-size: 23px;
+    font-family: roboto-regular;
     font-weight: 500;
 }
 
@@ -476,12 +491,14 @@ footer  .wrapper .top .right .product {
 }
 footer  .wrapper .top .product h5.title {
     font-size: 16px;
+    font-family: roboto-medium;
     font-weight: 500;
     color: #5865f2;
     margin-bottom: 30px;
 }
 footer  .wrapper .top .product ul li h5 {
     font-size: 14px;
+    font-family: roboto-regular;
     color: #fff;
     margin-bottom: 15px;
 }
@@ -490,12 +507,14 @@ footer  .wrapper .top .company {
 }
 footer  .wrapper .top .company h5.title {
     font-size: 16px;
+    font-family: roboto-medium;
     font-weight: 500;
     color: #5865f2;
     margin-bottom: 30px;
 }
 footer  .wrapper .top .company ul li h5 {
     font-size: 14px;
+    font-family: roboto-regular;
     color: #fff;
     margin-bottom: 15px;
 }
@@ -504,23 +523,27 @@ footer  .wrapper .top .resource {
 }
 footer  .wrapper .top .resource h5.title {
     font-size: 16px;
+    font-family: roboto-medium;
     font-weight: 500;
     color: #5865f2;
     margin-bottom: 30px;
 }
 footer  .wrapper .top .resource ul li h5 {
     font-size: 14px;
+    font-family: roboto-regular;
     color: #fff;
     margin-bottom: 15px;
 }
 footer  .wrapper .top .policies h5.title {
     font-size: 16px;
+    font-family: roboto-medium;
     font-weight: 500;
     color: #5865f2;
     margin-bottom: 30px;
 }
 footer  .wrapper .top .policies ul li h5 {
     font-size: 14px;
+    font-family: roboto-regular;
     color: #fff;
     margin-bottom: 15px;
 }
@@ -560,3 +583,21 @@ footer  .wrapper .bottom .fsign h4 {
 
 
 /* Media Responsive Querries */
+
+
+@media all and (max-width: 1380px){
+}
+@media all and (max-width: 1280px){
+}
+@media all and (max-width: 1080px){
+}
+@media all and (max-width: 980px){
+}
+@media all and (max-width: 768px){
+}
+@media all and (max-width: 640px){
+}
+@media all and (max-width: 480px){
+}
+@media all and (max-width: 360px){
+}
