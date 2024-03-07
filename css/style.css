@@ -633,6 +633,11 @@ footer  .wrapper .bottom .fsign h4 {
     }
 }
 @media all and (max-width: 1080px){
+    #top header{
+        position: fixed;
+        top: 0;
+        z-index: 5;
+    }
     #top header ul.items {
         display: none;
     }
@@ -725,6 +730,18 @@ footer  .wrapper .bottom .fsign h4 {
     }
 }
 @media all and (max-width: 980px){
+    #top .wrapper .spotlight .middle {
+        display: block;
+        padding-top: 30px;
+    }
+    #top .wrapper .spotlight .middle .description {
+        text-align: left;
+        width: 90%;
+        margin: 25px auto;
+    }
+    #top .wrapper .spotlight .middle .option .windows {
+        margin-right: 0;
+    }
 }
 @media all and (max-width: 768px){
 }
