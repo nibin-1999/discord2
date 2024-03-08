@@ -6,6 +6,7 @@
         <title>Discord | Your Place to Talk and Hang Out</title>
 		<link rel="stylesheet" href="./css/style.css">
         <link rel="icon"  href="./assets/images/favicon.ico" sizes="500*500"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <section id="top">
@@ -15,7 +16,21 @@
                         <img src="./assets/images/logo.svg" alt="logo-image" />
                     </a>
                 </h1>
+                <input type="checkbox" id="check" />
                 <ul class="items">
+                    <li class="black-logo">
+                        <h1 class="logo">
+                            <a href="#">
+                                <img src="./assets/images/logo-black.svg" alt="logo-image" />
+                            </a>
+                        </h1>
+                        <a href="#" class="button">
+                            <h4>Login</h4>
+                        </a>
+                        <label for="check" class="close-menu">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                    </li>
                     <li>
                         <a href="#">
                             <h3>Download</h3>
@@ -41,7 +56,7 @@
                             <h3>Support</h3>
                         </a>
                     </li>
-                    <li>
+                    <li> 
                         <a href="#">
                             <h3>Blog</h3>
                         </a>
@@ -51,14 +66,24 @@
                             <h3>Careers</h3>
                         </a>
                     </li>
+                    <li class="dd-button">
+                        <a href="#" class="txt">
+                            <div class="d-arrow">
+                                <img src="./assets/images/download-w.svg" alt="image">
+                            </div>
+                            <div class="title" >
+                                <h4 class="download">Download</h4>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
                 <div class="log-button">
                     <a href="#" class="button">
                         <h4>Login</h4>
                     </a>
-                    <a href="#" class="bar">
-                        <img src="./assets/images/bar.svg" alt="image">
-                    </a>
+                    <label for="check" class="open-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
                 </div>
             </header>
             <div class="left">
