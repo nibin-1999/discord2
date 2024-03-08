@@ -662,6 +662,7 @@ footer  .wrapper .bottom .fsign h4 {
     }
 }
 @media all and (max-width: 1080px){
+
     #top header .log-button {
         align-items: flex-start;
     }
@@ -690,7 +691,6 @@ footer  .wrapper .bottom .fsign h4 {
     #top header input#check:checked + ul.items {
         display: flex;
     }
-
     #top header ul.items li {
         margin-bottom: 40px;
     }
@@ -770,6 +770,7 @@ footer  .wrapper .bottom .fsign h4 {
     }
     #top .wrapper .spotlight {
         padding-bottom: 350px;
+        scroll-behavior: unset;
     }
     #top .wrapper .spotlight .middle {
         display: flex;
@@ -1038,9 +1039,9 @@ footer  .wrapper .bottom .fsign h4 {
 }
 @media all and (max-width: 360px){
     #top header ul.items {
-        left: 20%;
-        width: 80%;
-        padding: 20px 14px 94px 35px;
+        left: 0;
+        width: 100%;
+        padding: 25px 35px 39px 35px;
     }
     #testimonial2 .wrapper .content .right {
         width: 230px;
